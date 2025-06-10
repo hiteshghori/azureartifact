@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     env:
-      NUGET_FEED_URL: https://pkgs.dev.azure.com/HiteshGhori/Phoenix/_packaging/ReportMigratorModels/nuget/v3/index.json
+      NUGET_FEED_URL: https://pkgs.dev.azure.com/HiteshGhori/Phoenix/_packaging/ReportMigratorModelsV1/nuget/v3/index.json
       NUGET_FEED_USERNAME: 'Azure DevOps'
       PACKAGE_PROJECT: './AzureArtifact.Models/AzureArtifact.Models.csproj'
       DOTNET_VERSION: '8.0.x'
